@@ -1,0 +1,58 @@
+/*global*/
+:root {
+    --primary-color: #35479C;
+    --second-color: #F4F6F9;
+}
+
+/*footer*/
+.footer {
+    background-color: var(--second-color);
+    padding: 64px 0 32px;
+}
+
+.footer .logo img {
+    width: 100px;
+}
+
+.footer .logo-content {
+    margin: 24px 0 64px;
+    font-size: 14px;
+}
+
+.footer .logo-content span {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.footer .logo-content span:last-child {
+    margin: 0;
+}
+
+.footer .title {
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.footer .content {
+    margin-bottom: 64px;
+}
+
+.footer .content span {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.footer .content span:last-child {
+    margin: 0;
+}
+
+.footer .content span i {
+    margin-left: 12px;
+    color: var(--primary-color);
+}
+
+.footer .social-media i {
+    margin-left: 24px;
+    color: var(--primary-color);
+}

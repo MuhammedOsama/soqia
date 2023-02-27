@@ -1,0 +1,10 @@
+.about {
+    text-align: center;
+    margin: auto;
+}
+
+.about .about-desc {
+    max-width: 900px;
+    padding: 0 24px;
+    margin-top: 24px;
+}

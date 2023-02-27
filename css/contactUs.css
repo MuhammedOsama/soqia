@@ -1,0 +1,59 @@
+/*global*/
+:root {
+    --primary-color: #35479C;
+}
+
+/*contact us*/
+.contact-us {
+    text-align: center;
+    margin: auto;
+}
+
+.contact-us .logo {
+    margin-bottom: 24px;
+}
+
+.contact-us .logo img {
+    width: 400px;
+}
+
+.contact-us .contact-content .contact-content-title {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.contact-us .contact-content .contact-content-desc {
+    font-size: 14px;
+}
+
+.contact-us .contact-icons {
+    margin: 24px 0;
+}
+
+.contact-us .contact-icons i {
+    margin-left: 24px;
+    color: var(--primary-color);
+}
+
+.contact-us .contact-number .icon-number {
+    margin-left: 12px;
+    color: var(--primary-color);
+}
+
+@media (max-width: 414px) {
+    .contact-us .logo img {
+        width: 350px;
+    }
+}
+
+@media (max-width: 375px) {
+    .contact-us .logo img {
+        width: 320px;
+    }
+}
+
+@media (max-width: 320px) {
+    .contact-us .logo img {
+        width: 250px;
+    }
+}

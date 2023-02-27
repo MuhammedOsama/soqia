@@ -1,0 +1,43 @@
+/*.auth-content {*/
+/*    position: relative;*/
+/*}*/
+
+/*.auth-content .col-md-6 {*/
+/*    width: 50%;*/
+/*}*/
+
+/*.auth-content .col-md-6 .logo img {*/
+/*    height: 100vh;*/
+/*    width: 100%;*/
+/*}*/
+
+/*@media (max-width: 1200px) {*/
+/*    .auth-content .col-md-6 .logo img {*/
+/*        display: none;*/
+/*    }*/
+/*}*/
+
+/*global*/
+:root {
+    --primary-color: #35479C;
+    --second-color: #F4F6F9;
+    --third-color: #707070;
+    --fourth-color: #36459C0A;
+}
+
+/*auth*/
+
+.auth-content {
+    display: flex;
+    align-items: center;
+    background-color: var(--second-color);
+}
+
+.auth-content .auth-form {
+    /*max-width: 200px;*/
+}
+
+.auth-content .logo img {
+    width: 116.9%;
+    height: 100vh;
+}

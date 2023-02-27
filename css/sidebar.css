@@ -1,0 +1,72 @@
+/*global*/
+:root {
+    --primary-color: #35479C;
+    --second-color: #F4F6F9;
+}
+
+/*sidebar*/
+.soqyia {
+    display: flex;
+}
+
+.soqyia .sidebar-menu {
+    width: 150px;
+    background-color: var(--primary-color);
+    text-align: center;
+    height: 100vh;
+}
+
+.soqyia .sidebar-menu .sidebar-logo img {
+    width: 100px;
+    margin: 32px 0;
+}
+
+.soqyia .sidebar-menu .sidebar-links .link {
+    margin: 0 16px 24px;
+    color: var(--second-color);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.soqyia .sidebar-menu .sidebar-links .link .link-icon {
+    margin-bottom: 8px;
+    width: 60px;
+    height: 60px;
+    transition: .3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soqyia .sidebar-menu .sidebar-links .link-icon:hover {
+    background-color: var(--second-color);
+    color: var(--primary-color);
+    border-radius: 50%;
+}
+
+.soqyia .sidebar-menu .sidebar-links .link .link-title {
+    font-size: 14px;
+}
+
+@media (max-width: 499px) {
+    .soqyia .sidebar-menu {
+        width: 50px;
+    }
+
+    .soqyia .sidebar-menu .sidebar-logo img {
+        width: 30px;
+    }
+
+    .soqyia .sidebar-menu .sidebar-links .link {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .soqyia .sidebar-menu .sidebar-links .link .link-title {
+        display: none;
+    }
+}

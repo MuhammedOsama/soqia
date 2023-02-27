@@ -1,0 +1,41 @@
+.conditions {
+    text-align: center;
+    margin: auto;
+}
+
+.conditions .logo {
+    margin-bottom: 24px;
+}
+
+.conditions .logo img {
+    width: 70px;
+}
+
+.conditions .condition-content .condition-title {
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+.conditions .condition-content .condition-item {
+    margin-bottom: 16px;
+    max-width: 900px;
+}
+
+.conditions .condition-content .condition-item .condition-item-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+@media (max-width: 1024px) {
+    .conditions .condition-content .condition-item {
+        margin: 0 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .condition-content-items {
+        height: 200px;
+        overflow-x: auto;
+    }
+}
